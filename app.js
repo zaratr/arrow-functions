@@ -7,7 +7,7 @@ const theOldWay = function(course)
   return `I am currently enrolled in ${course}`;
 };
 theOldWay(course);
-// console.log('The old way:', theOldWay('Code 301'));
+ console.log('The old way:', theOldWay('Code 301'));
 
 
 // STEP 2
@@ -17,7 +17,7 @@ const theNewWay = (course) => {
   return `I am currently enrolled in ${course}`;
 };
 
-// console.log('The new way:', theNewWay('Code 301'));
+ console.log('The new way:', theNewWay('Code 301'));
 
 
 // STEP 3
@@ -26,7 +26,7 @@ const withoutParens = course => {
   return `I am currently enrolled in ${course}`;
 };
 
-// console.log('Without parens:', withoutParens('Code 301'));
+ console.log('Without parens:', withoutParens('Code 301'));
 
 
 // STEP 4
@@ -35,7 +35,7 @@ const withoutParens = course => {
 // Without an arrow function, we need to explicitly type "return"
 const oneLiner = course => `I cam currently enrolled in ${course}`;
 
-// console.log('As a one-liner:', oneLiner('Code 301'));
+ console.log('As a one-liner:', oneLiner('Code 301'));
 
 
 // STEP 5
@@ -45,7 +45,7 @@ const add = function(num1, num2) {
   return `${num1} + ${num2} = ${num1 + num2}`;
 };
 
-// console.log('Let\'s do some math:', add(4, 5));
+ console.log('Let\'s do some math:', add(4, 5));
 
 
 // STEP 6
@@ -53,7 +53,7 @@ const add = function(num1, num2) {
 // We can only remove the parentheses when there is a single parameter
 const addOneLiner = (num1, num2) => `${num1} + ${num2} = ${num1 + num2}`;
 
-// console.log('Add as a one-liner:', addOneLiner(4, 5));
+ console.log('Add as a one-liner:', addOneLiner(4, 5));
 
 
 // STEP 7
@@ -64,7 +64,7 @@ const multiLiner = word => {
   return word;
 };
 
-// console.log('Multi-line arrow function:', multiLiner('hello'));
+ console.log('Multi-line arrow function:', multiLiner('hello'));
 
 
 // STEP 8
@@ -78,7 +78,7 @@ const oldObject = function(array) {
   };
 };
 
-// console.log('Hello from the old object function', oldObject(['hi', 'hello', 'are you there?']));
+ console.log('Hello from the old object function', oldObject(['hi', 'hello', 'are you there?']));
 
 
 // STEP 9
@@ -91,7 +91,7 @@ const newObject = array => ({
 });
 
 
-// console.log('Hello from the new object function', newObject(['hi', 'hello', 'are you there?']));
+ console.log('Hello from the new object function', newObject(['hi', 'hello', 'are you there?']));
 
 
 // STEP 10
@@ -115,7 +115,7 @@ let objectLit = () =>(
 
 let sumAndProduct = (a, b) => [a+b, a*b];
 
-//sumAndProduct(3, 9);
+sumAndProduct(3, 9);
 
 
 let message = name => 
